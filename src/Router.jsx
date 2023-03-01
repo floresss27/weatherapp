@@ -1,5 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
+import Home from './pages/home'
 
 const Router = () => {
     return (
@@ -8,3 +9,5 @@ const Router = () => {
         </Routes>
     )
 }
+
+export default Router
